@@ -5,6 +5,7 @@ from .serializers import RoomSerializer
 
 # Create your views here.
 
-class RoomView(generics.CreateAPIView):
+# List(GET) or Create (POST)
+class RoomView(generics.ListAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer

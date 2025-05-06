@@ -8,6 +8,7 @@
    3.2 we will point our endpoint on urls.py inside our api directory
 4. Make migrations with python .\manage.py makemigrations and then python .\manage.py migrate
 5. Build your models on Models.py on api folder
+   5.1 Apply serializers class on your api folder
 
 # to run server
 
